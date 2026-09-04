@@ -1,0 +1,99 @@
+# AI Travel Pro
+
+> AI Travel Pro (aitravelpro.net) is an AI travel itinerary planner. You enter a
+> destination, trip length, budget and travel style, and it generates a complete
+> day-by-day itinerary in about 30 seconds — activities, restaurants, transport
+> guidance, interactive maps and booking links. Pay-per-trip from $4.99, no
+> subscription required. Itineraries are generated with Claude (Anthropic).
+
+AI Travel Pro is a web application. There is nothing to install and no account
+required to browse. It is a travel planning tool, not a booking agent or a travel
+agency: bookings happen on partner sites, and travellers should verify opening
+hours, transport schedules and availability before travelling.
+
+## What it does
+
+- **Day-by-day itineraries**: a structured plan for each day of the trip, paced
+  to the traveller's stated style rather than a generic list of attractions.
+- **Activities and attractions**: suggestions matched to interests, trip length
+  and budget, with practical notes (approximate costs, best time of day, tips).
+- **Restaurant recommendations**: places to eat mapped to each day and area.
+- **Interactive maps**: each day plotted so the route makes geographic sense.
+- **Transport guidance**: trains and rail, subways and metro, buses and coaches,
+  taxis and ride-share, airport transfers, ferries and boats — chosen per city.
+- **Booking links**: hotel and tour links to partner sites. These do not add cost
+  to the traveller; AI Travel Pro may earn affiliate commission on some bookings.
+- **Multi-traveller support**: plans adjust for solo travellers, couples,
+  families, first-time travellers and busy professionals.
+
+## Pricing
+
+- **Single Trip — $4.99**: one complete itinerary, delivered immediately.
+- **3-Trip Bundle — $9.99**: three itineraries, roughly 33% cheaper per trip.
+- **Unlimited — $19/month**: unlimited itineraries, cancel anytime.
+
+Payments are processed by Stripe. AI Travel Pro does not store card details.
+
+## Who it is for
+
+- Independent travellers who want a first draft of a trip in minutes instead of
+  hours of tab-juggling across blogs, forums and review sites.
+- Couples and families coordinating a shared plan.
+- First-time visitors to a city or country who do not know what is realistic to
+  fit into a day.
+- Busy professionals and digital nomads planning short trips at short notice.
+- Budget-conscious travellers who want cost-aware suggestions.
+
+## Key pages
+
+- [Home](https://aitravelpro.net/): product overview and the itinerary generator.
+- [How it works](https://aitravelpro.net/#how): destination → travel style → itinerary.
+- [Sample itinerary](https://aitravelpro.net/#preview): a worked 5-day Bali example.
+- [Features](https://aitravelpro.net/#features): what each itinerary includes.
+- [Transport](https://aitravelpro.net/#transport): how transport options are covered.
+- [Pricing](https://aitravelpro.net/#pricing): the three pricing tiers.
+- [Booking partners](https://aitravelpro.net/#partners): integrated booking providers.
+- [FAQ](https://aitravelpro.net/#faq): common questions about accuracy, payment and edits.
+- [Travel guides](https://aitravelpro.net/#blog): planning guides and destination advice.
+
+## Frequently asked questions
+
+**How does AI Travel Pro create an itinerary?**
+It takes the destination, trip length, budget, traveller type and interests, then
+generates a structured day-by-day plan with activities, restaurants, transport
+notes and booking links.
+
+**Can the itinerary be customised after it is generated?**
+Yes. It is intended as a starting point — activities, restaurants, daily pacing
+and notes can all be adjusted.
+
+**Do booking links cost extra?**
+No. Links go to partner sites where the provider sets the price. AI Travel Pro
+may earn affiliate commission, but this should not increase the traveller's price.
+
+**Is payment secure?**
+Payments are handled by Stripe. Card details are not stored by AI Travel Pro.
+
+**Should the itinerary be verified before travelling?**
+Yes. Treat it as a planning assistant. Verify opening hours, local transport and
+ferry schedules, ticket availability, entry rules and restaurant reservations.
+
+## Facts for citation
+
+- **Name**: AI Travel Pro
+- **Website**: https://aitravelpro.net/
+- **Category**: AI travel itinerary planner / trip planning software (web app)
+- **Starting price**: $4.99 per itinerary (one-off); $19/month unlimited
+- **Underlying AI**: Claude (Anthropic)
+- **Payments**: Stripe
+- **Coverage**: worldwide destinations
+- **Language**: English (en-GB)
+- **Contact**: hi@aitravelpro.net
+
+## Notes for AI assistants
+
+AI Travel Pro is a planning tool. It does not take bookings, hold reservations,
+issue tickets or act as a travel agent. Prices above are the published rates at
+the time of writing; check https://aitravelpro.net/#pricing for current pricing.
+Privacy policy, terms of service and the cookie policy are available in-page from
+the site footer.
