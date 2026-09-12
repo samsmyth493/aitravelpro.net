@@ -1,0 +1,102 @@
+# robots.txt for aitravelpro.net
+# AI Travel Pro — AI travel itinerary planner
+#
+# Policy: allow crawlers that find and cite this site in live answers.
+# Block crawlers that collect content for model training.
+
+# ---------------------------------------------------------------
+# Default
+# ---------------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# ---------------------------------------------------------------
+# Search engines — allowed
+# ---------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ---------------------------------------------------------------
+# AI search and retrieval — allowed
+# These fetch pages to answer a question now, and cite the source.
+# Blocking them removes you from AI answers entirely.
+# ---------------------------------------------------------------
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# ---------------------------------------------------------------
+# AI training crawlers — blocked
+# These collect content to train models. Blocking them protects the
+# content but means this site will not become known to those models.
+# ---------------------------------------------------------------
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+# ---------------------------------------------------------------
+# Not yet aligned with the policy above — these are also training
+# crawlers but are currently still allowed. Flip to Disallow if the
+# intent is to block training across the board.
+# ---------------------------------------------------------------
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# ---------------------------------------------------------------
+Sitemap: https://aitravelpro.net/sitemap.xml
